@@ -1,0 +1,66 @@
+.app-layout {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #1b1028, #26143a, #341c52);
+  color: #f3e8ff;
+}
+
+.site-header {
+  background: rgba(24, 13, 38, 0.95);
+  border-bottom: 1px solid #5b2d86;
+  box-shadow: 0 4px 18px rgba(12, 5, 25, 0.45);
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.site-header nav {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 16px 24px;
+
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+
+.site-header a {
+  text-decoration: none;
+  color: #d8c7ee;
+  font-weight: 500;
+  padding: 8px 12px;
+  border-radius: 10px;
+  transition: 0.2s ease;
+}
+
+.site-header a:hover {
+  background: #3a1f5c;
+  color: #ffffff;
+}
+
+.site-header a.active {
+  background: #7c3aed;
+  color: #ffffff;
+}
+
+.site-header button {
+  margin-left: auto;
+  border: none;
+  background: #6d28d9;
+  color: #ffffff;
+  padding: 9px 16px;
+  border-radius: 10px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.site-header button:hover {
+  background: #8b5cf6;
+  transform: translateY(-1px);
+}
+
+main {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 32px 24px;
+}

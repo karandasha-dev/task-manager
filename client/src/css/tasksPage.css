@@ -1,0 +1,117 @@
+.tasks-page {
+  min-height: 100vh;
+  padding: 40px 24px;
+  background: linear-gradient(135deg, #14091f, #211033, #32164f);
+  color: #f3e8ff;
+}
+
+.tasks-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.tasks-header {
+  max-width: 900px;
+  margin: 0 auto 28px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 32px;
+  padding: 34px 38px;
+  border-radius: 30px;
+  background: rgba(30, 16, 48, 0.85);
+  box-shadow: 0 20px 50px rgba(10, 4, 20, 0.5);
+  border: 1px solid rgba(167, 139, 250, 0.25);
+}
+
+.tasks-label {
+  display: inline-block;
+  padding: 8px 16px;
+  margin: 0 0 14px;
+  border-radius: 999px;
+  background: #3b1f5f;
+  color: #d8b4fe;
+  font-weight: 700;
+}
+
+.tasks-header h1 {
+  margin: 0;
+  font-size: 42px;
+  line-height: 1.1;
+  color: #f5d0fe;
+}
+
+.tasks-subtitle {
+  max-width: 320px;
+  margin: 0;
+  color: #d8c7ee;
+  font-size: 16px;
+  line-height: 1.4;
+}
+
+.add-task-btn {
+  padding: 14px 22px;
+  border: none;
+  border-radius: 16px;
+  background: #7c3aed;
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 700;
+  cursor: pointer;
+  box-shadow: 0 10px 25px rgba(124, 58, 237, 0.35);
+  transition: 0.2s ease;
+  white-space: nowrap;
+}
+
+.add-task-btn:hover {
+  transform: translateY(-3px);
+  background: #8b5cf6;
+}
+
+.tasks-filters {
+  display: grid;
+  grid-template-columns: minmax(250px, 1fr) 180px 180px;
+  gap: 14px;
+  margin: 0 auto 24px;
+  padding: 22px;
+  border-radius: 24px;
+  background: rgba(30, 16, 48, 0.85);
+  box-shadow: 0 15px 35px rgba(10, 4, 20, 0.45);
+  border: 1px solid rgba(167, 139, 250, 0.25);
+}
+
+.task-search,
+.task-select {
+  width: 100%;
+  height: 48px;
+  padding: 0 16px;
+  border: 2px solid rgba(167, 139, 250, 0.45);
+  border-radius: 14px;
+  background: #160b24;
+  color: #f3e8ff;
+  font-size: 15px;
+  outline: none;
+  transition: 0.2s ease;
+}
+
+.task-select {
+  cursor: pointer;
+}
+
+.task-search::placeholder {
+  color: #a78bfa;
+}
+
+.task-search:focus,
+.task-select:focus {
+  border-color: #8b5cf6;
+  box-shadow: 0 0 0 4px rgba(139, 92, 246, 0.18);
+}
+
+.tasks-list {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  gap: 24px;
+  padding-bottom: 40px;
+}

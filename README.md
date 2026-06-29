@@ -2,49 +2,48 @@
 
 A full-stack task management application built with React, Redux, Node.js, Express.js, and PostgreSQL.
 
-# Features
+## Features
 
-* User registration and authentication
-* Secure login and logout
-* Profile and password management
-* Create, edit, delete, and sort tasks
-* Responsive user interface
-* REST API integration
+- User registration and authentication
+- Secure login and logout
+- Profile and password management
+- Create, edit, delete, and sort tasks
+- Responsive user interface
+- REST API integration
 
- Tech Stack
+ ## Tech Stack
 
-# Frontend
+### Frontend
 
-* React
-* Redux
-* JavaScript
-* CSS
-* Vite
+- React
+- Redux
+- JavaScript
+- CSS
+- Vite
 
-# Backend
+### Backend
 
-* Node.js
-* Express.js
+- Node.js
+- Express.js
 
-# Database
+### Database
 
-* PostgreSQL
+ - PostgreSQL
 
-# Tools
+### Tools
 
-* Git
-* GitHub
-* Postman
+- Git
+- GitHub
+- Postman
 
-# Project Structure
-
+## Project Structure
 
 task-tracker/
 ├── client/
 └── server/
 
 
-# Installation
+## Installation
 
 Clone the repository:
 
@@ -61,26 +60,20 @@ npm install
 cd ../server
 npm install
 
-
-Start the backend:
-
+### Start the backend:
 
 npm start
 
-
-Start the frontend:
-
+### Start the frontend:
 
 npm run dev
 
+## Future Improvements
 
-# Future Improvements
+- Task categories
+- Search and filtering
+- Due dates and reminders
 
-* Task categories
-* Search and filtering
-* Due dates and reminders
-* Drag-and-drop task management
-
-# Author
+## Author
 
 Darya — Junior Full-Stack Developer
